@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 350px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 10px 0 5px;
+}
+
+h2 {
+    margin: 0 0 15px;
+    color: #777;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    display: block;
+    color: #3498db;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #3498db;
+    text-decoration: none;
+}
